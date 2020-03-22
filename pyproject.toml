@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml-playground"
+version = "0.1.0"
+description = "my playground for machine learning"
+authors = ["pyto86 <pyto86.me@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.2"
+pandas = "^1.0.3"
+sklearn = "^0.0"
+tensorflow = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

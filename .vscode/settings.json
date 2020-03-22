@@ -1,0 +1,4 @@
+{
+    "editor.insertSpaces": false,
+    "python.dataScience.jupyterServerURI": "http://localhost:8888"
+}
