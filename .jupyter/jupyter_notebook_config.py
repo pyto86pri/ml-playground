@@ -342,7 +342,7 @@ c.NotebookApp.port = 8888
 #  
 #  Setting to an empty string disables authentication altogether, which is NOT
 #  RECOMMENDED.
-c.NotebookApp.token = ''
+c.NotebookApp.token = 'token'
 
 ## Supply overrides for the tornado.web.Application that the Jupyter notebook
 #  uses.
