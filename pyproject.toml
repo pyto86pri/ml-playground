@@ -10,9 +10,11 @@ numpy = "^1.18.2"
 pandas = "^1.0.3"
 sklearn = "^0.0"
 tensorflow = "^2.1.0"
+tensorflow-estimator = "2.1.0"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
+pylint = "^2.4.4"
 
 [build-system]
 requires = ["poetry>=0.12"]

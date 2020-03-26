@@ -1,4 +1,5 @@
 {
     "editor.insertSpaces": false,
-    "python.dataScience.jupyterServerURI": "http://localhost:8888?token=token"
+    "python.dataScience.jupyterServerURI": "http://localhost:8888?token=token",
+    "python.pythonPath": ".venv/bin/python"
 }
