@@ -1,4 +1,11 @@
+# python
 .venv
+__pycache__
+
+# jupyter
 .jupyter/migrated
 .ipynb_checkpoints
+
+# ml
 logs/
+models/
