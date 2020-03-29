@@ -1,3 +1,5 @@
+LOGDIR := logs/fit
+
 .PHONY: install
 install:
 	# 仮想環境をプロジェクト直下に作るように
@@ -15,3 +17,7 @@ clear:
 .PHONY: lab
 lab:
 	JUPYTER_CONFIG_DIR=./.jupyter poetry run jupyter notebook
+
+.PHONY: board
+board:
+	poetry run tensorboard --logdir $(LOGDIR)

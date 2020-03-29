@@ -17,3 +17,13 @@ Jupyterサーバ立ち上げ
 ```
 $ make lab
 ```
+# メモ
+## Tensorboardエラー
+```
+raise VersionConflict(dist, req).with_context(dependent_req)
+pkg_resources.VersionConflict: (setuptools 40.6.2 (/Users/pyto86/my/github.com/ml-playground/.venv/lib/python3.7/site-packages), Requirement.parse('setuptools>=41.0.0'))
+```
+poetry環境のsetuptoolsのバージョンが低いことが原因
+```
+$ poetry run pip install --upgrade setuptools
+```
